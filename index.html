@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Graphic Umbrella</title>
@@ -28,61 +31,256 @@
                 </svg>
             </div>
             <div class="row">
-                <div class="row col-12">
-                    <div class="logo d-flex">
-                        <img src="media/umbrella-logo.png" alt="umbrella image" class="img-fluid umbrella-img">
-                        <div class="logo-head">
-                            <h1 class="logo-title"><span class="graphics">graphics</span><span
-                                    class="umbrella">umbrella</span>
+                    <div class="logo d-flex col-12">
+                        <img src="media/umbrella-logo.png" alt="umbrella image" class="img-fluid umbrella-img col-2">
+                        <div class="logo-head col-10">
+                            <h1 class="logo-title"><span class="graphics">graphics</span>umbrella
                             </h1>
                             <p class="slogan">Premium style Free graphics</p>
                         </div>
                     </div>
-                    <nav class="nav col-12">
-                        <a href="#link" class="top-nav-item nav-link">home</a>
-                        <a href="#link" class="top-nav-item nav-link">news</a>
-                        <a href="#link" class="top-nav-item nav-link">products</a>
-                        <a href="#link" class="top-nav-item nav-link">features</a>
-                        <a href="#link" class="top-nav-item nav-link">contact</a>
+                    <nav class="nav top-nav justify-content-around col-12">
+                        <a href="#link" class="top-nav-item col-2 nav-link">home</a>
+                        <a href="#link" class="top-nav-item col-2 nav-link">news</a>
+                        <a href="#link" class="top-nav-item col-2 nav-link">products</a>
+                        <a href="#link" class="top-nav-item col-2 nav-link">features</a>
+                        <a href="#link" class="top-nav-item col-2 nav-link">contact</a>
                     </nav>
-                </div>
             </div>
         </div>
     </header>
     <main class="main" id="main">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item item-carousel active">
-                <img src="media/devices.png" class="carousel-img d-block w-50" alt="carousel image">
-                <div class="carousel-content d-none d-md-block">
-                  <p class="carousel-text">ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT</p>
+        <section class="section1">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item item-carousel active">
+                        <img src="media/devices.png" class="carousel-img d-block w-50" alt="carousel image">
+                        <div class="carousel-content d-none d-sm-block">
+                            <p class="carousel-text">ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-carousel">
+                        <img src="media/devices.png" class="carousel-img d-block w-50" alt="carousel image">
+                        <div class="carousel-content d-none d-sm-block">
+                            <p class="carousel-text">ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-carousel">
+                        <img src="media/devices.png" class="carousel-img d-block w-50" alt="carousel image">
+                        <div class="carousel-content d-none d-sm-block">
+                            <p class="carousel-text">ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item item-carousel">
-                <img src="media/devices.png" class="carousel-img d-block w-50" alt="carousel image">
-                <div class="carousel-content d-none d-md-block">
-                  <p class="carousel-text">ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT</p>
-                </div>
-              </div>
-              <div class="carousel-item item-carousel">
-                <img src="media/devices.png" class="carousel-img d-block w-50" alt="carousel image">
-                <div class="carousel-content d-none d-md-block">
-                  <p class="carousel-text">ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT</p>
-                </div>
-              </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        </section>
+        <section class="section2">
+            <div class="container">
+                <h2 class="section2-header col-12"> WELCOME TO <span class="elegant">ELEGANTICA</span> - A MINIMAL BUSINESS THEME</h2>
+                <div class="row">
+                    <div class="support col-3">
+                        <svg class="icon icon-recycle">
+                            <use xlink:href="#icon-recycle"></use>
+                        </svg>
+                        <p class="section2-text1">AMAZING</p>
+                        <p class="section2-text2">Support</p>
+                    </div>
+                    <div class="availability col-3">
+                        <svg class="icon icon-phone">
+                            <use xlink:href="#icon-phone"></use>
+                        </svg>
+                        <p class="section2-text1">24 HOUR</p>
+                        <p class="section2-text2">Availability</p>
+                    </div>
+                    <div class="design col-3">
+                        <svg class="icon icon-cog">
+                            <use xlink:href="#icon-cog"></use>
+                        </svg>
+                        <p class="section2-text1">WEB</p>
+                        <p class="section2-text2">Design</p>
+                    </div>
+                    <div class="development col-3">
+                        <svg class="icon icon-mobile">
+                            <use xlink:href="#icon-mobile"></use>
+                        </svg>
+                        <p class="section2-text1">MOBILE</p>
+                        <p class="section2-text2">Development</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="container">
+                <h2 class="section3-header col-12">RECENT FROM PORTFOLIO</h2>
+                <div class="row">
+                    <div class="card card1 col-8" style="max-width: 600px;">
+                        <div class="row">
+                            <img src="media/business-cards.jpg" alt="business cards" class="img-fluid card-img col-12 no-gutters">
+                            <div class="card-body text-center col-12">
+                                <h5 class="card-title">Card title</h5>
+                                <button class="button btn btn-success">Video</button>
+                                <button class="button btn btn-success">Interview</button>
+                                <p class="card-text ">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card2" style="max-width: 600px;">
+                        <div class="col-md-4">
+                            <img src="media/moo-minicards.jpg" alt="moo mini cards img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <button class="button">Video</button>
+                                <button class="button">Interview</button>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card3" style="max-width: 600px;">
+                        <div class="col-md-4">
+                            <img src="media/say-it-in-print.jpg" alt="say it in print cards" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <button class="button">Video</button>
+                                <button class="button">Interview</button>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card4" style="max-width: 600px;">
+                        <div class="col-md-4">
+                            <img src="media/graphics-in-print.jpg" alt="graphics in print cards" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <button class="button">Video</button>
+                                <button class="button">Interview</button>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="container">
+                <h2 class="section4-header">OUR MAJOR <span class="advert">ADVERTISERS</span></h2>
+                <div class="row">
+                    <img src="media/watermelocious.jpg" alt="" class="img-fluid">
+                    <img src="media/plantcloud.jpg" alt="" class="img-fluid">
+                    <img src="media/inspiredtemplate.jpg" alt="" class="img-fluid">
+                    <img src="media/birdfly.jpg" alt="" class="img-fluid">
+                    <img src="media/mansilhouette.jpg" alt="" class="img-fluid">
+                    <img src="media/solidsociety.jpg" alt="" class="img-fluid">
+                </div>
+                <a href="#header">^</a>
+            </div>
+        </section>
     </main>
     <footer class="footer" id="footer">
-
+        <div class="container">
+            <div class="row">
+                <div class="footer-content footer-content1">
+                    <div class="about-div">
+                        <h3 class="about-header">LITTLE ABOUT US</h3>
+                        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque illo
+                            dolorem quaerat nesciunt facere tenetur praesentium est quisquam, enim consequatur.</p>
+                    </div>
+                    <div class="follow-us">
+                        <svg class="icon icon-facebook">
+                            <use xlink:href="#icon-facebook"></use>
+                        </svg>
+                        <svg class="icon icon-twitter">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                        <svg class="icon icon-rss">
+                            <use xlink:href="#icon-rss"></use>
+                        </svg>
+                        <svg class="icon icon-github">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                        <svg class="icon icon-dribbble">
+                            <use xlink:href="#icon-dribbble"></use>
+                        </svg>
+                        <svg class="icon icon-users">
+                            <use xlink:href="#icon-users"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="footer-content footer-content2">
+                    <h3 class="archives">ARCHIVES</h3>
+                    <ul class="date-list">
+                        <li class="date-list-item">March 2021</li>
+                        <li class="date-list-item">February 2021</li>
+                        <li class="date-list-item">January 2021</li>
+                        <li class="date-list-item">December 2021</li>
+                    </ul>
+                </div>
+                <div class="footer-content footer-content3">
+                    <h3 class="contact">CONTACT US</h3>
+                    <div class="email-div">
+                        <div class="row">
+                            <svg class="icon icon-envelop">
+                                <use xlink:href="#icon-envelop"></use>
+                            </svg>
+                            <p class="email">info@premiumcoding.com</p>
+                        </div>
+                    </div>
+                    <div class="office-div">
+                        <div class="row">
+                            <svg class="icon icon-phone">
+                                <use xlink:href="#icon-phone"></use>
+                            </svg>
+                            <p class="office-number">800 756 156</p>
+                        </div>
+                    </div>
+                    <div class="mobile-div">
+                        <div class="row">
+                            <svg class="icon icon-mobile">
+                                <use xlink:href="#icon-mobile"></use>
+                            </svg>
+                            <p class="mobile-number">+356408007561</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content footer-content4">
+                    <h3 class="newsletter">SIGN TO NEWSLETTER</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
     <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -97,9 +295,22 @@
                     d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z">
                 </path>
             </symbol>
+            <symbol id="icon-envelop" viewBox="0 0 32 32">
+                <path
+                    d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z">
+                </path>
+            </symbol>
             <symbol id="icon-mobile" viewBox="0 0 32 32">
                 <path
                     d="M23 0h-14c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 1.5h8v1h-8v-1zM16 30c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM24 24h-16v-20h16v20z">
+                </path>
+            </symbol>
+            <symbol id="icon-users" viewBox="0 0 36 32">
+                <path
+                    d="M24 24.082v-1.649c2.203-1.241 4-4.337 4-7.432 0-4.971 0-9-6-9s-6 4.029-6 9c0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h28c0-4.030-5.216-7.364-12-7.918z">
+                </path>
+                <path
+                    d="M10.225 24.854c1.728-1.13 3.877-1.989 6.243-2.513-0.47-0.556-0.897-1.176-1.265-1.844-0.95-1.726-1.453-3.627-1.453-5.497 0-2.689 0-5.228 0.956-7.305 0.928-2.016 2.598-3.265 4.976-3.734-0.529-2.39-1.936-3.961-5.682-3.961-6 0-6 4.029-6 9 0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h8.719c0.454-0.403 0.956-0.787 1.506-1.146z">
                 </path>
             </symbol>
             <symbol id="icon-cog" viewBox="0 0 32 32">
@@ -109,6 +320,29 @@
             </symbol>
             <symbol id="icon-bookmark" viewBox="0 0 32 32">
                 <path d="M6 0v32l10-10 10 10v-32z"></path>
+            </symbol>
+            <symbol id="icon-facebook" viewBox="0 0 32 32">
+                <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+            </symbol>
+            <symbol id="icon-twitter" viewBox="0 0 32 32">
+                <path
+                    d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z">
+                </path>
+            </symbol>
+            <symbol id="icon-rss" viewBox="0 0 32 32">
+                <path
+                    d="M4.259 23.467c-2.35 0-4.259 1.917-4.259 4.252 0 2.349 1.909 4.244 4.259 4.244 2.358 0 4.265-1.895 4.265-4.244-0-2.336-1.907-4.252-4.265-4.252zM0.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391 2.825 2.822 4.384 6.595 4.384 10.603h6.16c-0-11.651-9.478-21.127-21.121-21.127zM0.012 0v6.136c14.243 0 25.836 11.604 25.836 25.864h6.152c0-17.64-14.352-32-31.988-32z">
+                </path>
+            </symbol>
+            <symbol id="icon-dribbble" viewBox="0 0 32 32">
+                <path
+                    d="M16 32c-8.825 0-16-7.175-16-16s7.175-16 16-16c8.825 0 16 7.175 16 16s-7.175 16-16 16v0zM29.494 18.188c-0.469-0.15-4.231-1.269-8.512-0.581 1.788 4.912 2.512 8.912 2.656 9.744 3.063-2.075 5.25-5.356 5.856-9.163v0zM21.337 28.6c-0.206-1.2-0.994-5.375-2.913-10.363-0.031 0.012-0.063 0.019-0.087 0.031-7.713 2.688-10.481 8.031-10.725 8.531 2.319 1.806 5.231 2.887 8.387 2.887 1.894 0 3.7-0.387 5.338-1.087v0zM5.844 25.156c0.313-0.531 4.063-6.738 11.106-9.019 0.175-0.056 0.356-0.113 0.538-0.162-0.344-0.775-0.719-1.556-1.106-2.319-6.819 2.044-13.444 1.956-14.044 1.95-0.006 0.137-0.006 0.275-0.006 0.419 0 3.506 1.331 6.712 3.512 9.131v0zM2.625 13.219c0.612 0.006 6.244 0.031 12.637-1.662-2.262-4.025-4.706-7.412-5.069-7.906-3.825 1.806-6.688 5.331-7.569 9.569v0zM12.8 2.731c0.375 0.506 2.863 3.888 5.1 8 4.863-1.819 6.919-4.588 7.163-4.938-2.413-2.144-5.587-3.444-9.063-3.444-1.1 0.006-2.175 0.138-3.2 0.381v0zM26.581 7.381c-0.288 0.388-2.581 3.325-7.631 5.388 0.319 0.65 0.625 1.313 0.906 1.981 0.1 0.238 0.2 0.469 0.294 0.706 4.55-0.569 9.069 0.344 9.519 0.438-0.031-3.225-1.188-6.188-3.087-8.512v0z">
+                </path>
+            </symbol>
+            <symbol id="icon-github" viewBox="0 0 32 32">
+                <path
+                    d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z">
+                </path>
             </symbol>
         </defs>
     </svg>

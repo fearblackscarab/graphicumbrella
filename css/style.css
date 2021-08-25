@@ -1,7 +1,7 @@
 :root{
     --primary: #a0c63f;
 }
-
+/* icons */
 .icon {
     display: inline-block;
     width: 1em;
@@ -9,16 +9,39 @@
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-  }
+}
 
-  .icon-recycle {
+.icon-recycle {
     width: 1.001953125em;
+}
+
+.icon-users{
+      width: 1.125em;
+}
+
+.icon-recycle,.icon-phone,.icon-cog,.icon-mobile{
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+/* continue working on icons, white div background */
+
+
+/* end icons */
+/* header */
+  
+.umbrella-img{
+      padding: 0;
   }
 
-  .umbrella-img{
-      width: 10%;
+  .top-nav-item{
+      color: black;
   }
-
+  /* end header */
+  /* main */
+/* section1 carousel */
   .carousel-item{
       background-color: var(--primary);
       position: relative;
@@ -32,8 +55,29 @@
   }
 
   .carousel-text{
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(12px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
   }
   .carousel-img{
       margin-left: 10%;
+  }
+/* end section1 carousel */
+/* section2 */
+
+.section2-header{
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(13px + (33 - 13) * ((100vw - 300px) / (1600 - 300)));
+    border-bottom: 1px dashed lightgrey;
+}
+
+.elegant{
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* end section2 */
+
+  /* cards */
+  .card{
+      margin: 0 auto;
   }

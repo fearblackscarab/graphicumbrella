@@ -1,0 +1,24 @@
+/* card media */
+
+@media(min-width:576px) and (max-width:767px){
+    .card{
+        width: 600px;
+    }
+}
+
+/* end card media */
+
+/* bot-nav media*/
+
+@media(max-width:768px){
+    .bot-nav{
+        justify-content: space-around;
+    }
+}
+
+@media(min-width:768px){
+    .bot-nav{
+        padding: 8px;
+    }
+}
+/* end bot-nav media */

@@ -7,7 +7,14 @@
 }
 
 /* end card media */
+/* footer icons */
+@media(min-width:768px){
+.footer .icon{
+    font-size: 30px;
+}
+}
 
+/* end footer icons */
 /* bot-nav media*/
 
 @media(max-width:768px){

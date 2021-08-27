@@ -1,6 +1,11 @@
 :root{
     --primary: #a0c63f;
 }
+
+.clear{
+    clear: both;
+}
+
 /* icons */
 .icon {
     display: inline-block;
@@ -32,15 +37,18 @@
   
 .umbrella-img{
       padding: 0;
+      margin-bottom: 25px;
 }
 
 .logo-title{
-    font-size: calc(32px + (55 - 32) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .top-nav-item{
     text-transform: uppercase;
       color: black;
+      padding-top: 35px;
+      margin-bottom: 10px;
 }
 /* end header */
 /* main */
@@ -167,6 +175,10 @@
 .date-list-item{
     margin: 20px 0;
     border-bottom: 1px dotted grey;
+}
+
+.contact-item .icon{
+    margin-right: 10px;
 }
 
 .contact-item{

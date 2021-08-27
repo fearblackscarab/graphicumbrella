@@ -6,6 +6,10 @@
     clear: both;
 }
 
+.graphics,.advert,.port{
+    color: var(--primary);
+}
+
 /* icons */
 .icon {
     display: inline-block;
@@ -41,6 +45,7 @@
 }
 
 .logo-title{
+    color: darkgreen;
     font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -120,6 +125,17 @@
 
 /* end section2 */
 /* section3 */
+
+.dash{
+    border-bottom: 2px dashed lightgrey;
+    padding: 0;
+    margin-bottom: 17px;
+}
+
+.section3-header{
+    font-size: calc(16px + (40 - 16) * ((100vw - 300px) / (1600 - 300)));
+    padding: 0;
+}
 /* cards */
 .card{
       margin: 0 auto;
